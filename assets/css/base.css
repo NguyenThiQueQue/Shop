@@ -1,0 +1,42 @@
+/* reset css */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --width-header:100%;
+    --width-header-logo:92px;
+    --width-header-nav:calc(var(--width-header) - var(--width-header-logo));
+    --white-color:#fff;
+    --primary-color:#5dc9ef;
+}
+
+@keyframes btnBuyAnimation{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleAnimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+

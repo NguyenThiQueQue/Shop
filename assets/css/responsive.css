@@ -1,0 +1,230 @@
+/* Mobile */
+@media (max-width:739px){
+    /* .header__container{
+        margin: 10px 0 0;
+    }
+
+    /* .accout, */
+
+    .accout{
+        margin-top: -4px;
+        font-size: 1.4rem;
+    }
+
+    .header__acount-link{
+        box-shadow: 1px 1px #dbdbdb;
+        height: 100%;
+    }
+
+    .marquee-slogan,
+    .accout,
+    .header__acount-link,
+    .header__logo{
+        display: none;
+    }
+
+    /* .header__logo {
+        width:100px
+    }
+
+    .header__login{
+        padding: 12px 46px;
+        background-color: #8fbbd5;
+        display: table;
+    } */
+
+    .header__search-btn-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .header__cart-notice {
+        left: 344px;
+        top: 8px
+    }
+    .header__search-btn{
+        width: 77px;
+    }
+    
+    .marquee-slogan{
+        padding: 6px;
+    }
+
+    .next__btn {
+        margin-left: 205px;
+    }
+
+    .top-search__product-item {
+        padding-top: 100%;
+        margin-right: 6px;
+    }
+
+    .next__btn__product--top {
+        left: 368px
+    }
+
+    .pre__btn__product--top{
+        margin-left: 0;
+    }
+
+    .buy-btn {
+        margin-top: 9px;
+        margin-left: 18px;
+    }
+    .product-home{
+        margin-top: 14px;
+    }
+
+    .modal-text{
+        margin-right: -46px;
+    }
+
+    .modal-description{
+        padding-top: 11px;
+    }
+
+    /* .header__login{
+        z-index: 1;
+        left: -22px;
+        position: absolute;
+    } */
+
+    .header__login,
+    .header__register,
+    .header__account{
+        font-size: 2rem;
+    }
+
+    .category-item{
+        margin-top: 6px;
+    }
+
+    .content__category--description{
+        margin-bottom: 8px;
+    }
+
+    .product__des{
+        margin-top: 14px;
+    }
+
+    .heart-icon-item{
+        margin-top: -233px;
+        margin-left: 99px
+    }
+
+    .product-home-item--sold{
+        margin-left: 1px;
+    }
+
+    .icon-star{
+        margin-left: 4px;
+    }
+
+    .item-container{
+        margin-right: 6px;
+    }
+
+    .btn-slider__product--top{
+        margin-top: -117px;
+    }
+
+    .item__des{
+        margin-top: -98px;
+    }
+
+    .product__item--prices{
+        margin-top: -70px;
+        margin-left: 6px;
+    }
+
+    .product-home-item--active{
+        margin-top: -50px;
+    }
+
+    .footer-list{
+        margin: 12px;
+    }
+
+    .footer__heading{
+        min-height: 0;
+        margin: 12px;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .header__menu-icon{
+        display: none;
+    }
+
+    .header__menu{
+        margin-left: -106px;
+    }
+
+    .header-with-search{
+        padding: 0 12px;
+    }
+
+    .nav__clothes--men{
+        padding-left: 38px;
+    }
+
+    .header__cart-notice{
+        top: 9px;
+        left: 635px;
+        position: absolute;
+    }
+    .next__btn {
+        margin-left: 343px
+    }
+    .top-search__product-item {
+        padding-top: 95%;
+    }
+    .next__btn__product--top {
+        left: 589px;
+    }
+
+    .btn-slider__product--top{
+        margin-bottom: 40px;
+        margin-top: -104px;
+    }
+
+    .buy-btn {
+        display: flex;
+        margin-left: 24px;
+        margin-top: 8px;
+    }
+    .product-home{
+        margin-top: 12px;
+    }
+
+    .heart-icon-item{
+        margin-top: -259px;
+        margin-left: 114px
+    }
+    .buy-btn__product-item{
+        margin-left: 24px;
+    }
+
+    .product__des{
+        margin-top: 11px;
+    }
+
+    .category-item{
+        margin-top: 12px;
+    }
+
+    .content__category--description{
+        margin: 14px 0 2px;
+    }
+
+}
+
+/* PC */
+@media (min-width:1024px){
+    .header__menu-icon{
+        display: none;
+    }
+    .product-home{
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <img src="./assets/img/logo.png" alt="" class="logo-img">
+                    </div>
+                    <div class="header__menu">
+                        <i class="header__menu-icon ti-menu"></i>
+                    </div>
+                    <div class="header-with-search">
+                        <input class="header__search" placeholder="Tìm sản phẩm"></input>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon ti-search"></i>
+                        </button>
+                    </div>
+                    <div class="header_user">
+                        <div class="accout">
+                            <i class="accout-icon ti-user"></i>
+                        </div>
+                        <div class="header__acount-link">
+                            <a class="header__login" href="#">
+                                Đăng nhập /
+                            </a>                          
+                            <a class="header__register" href="#">
+                                Đăng ký
+                            </a>
+                            <a href="" class="header__account">
+                                Tài khoản
+                                <i class="header__account-icon ti-angle-down"></i>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon ti-shopping-cart"></i>
+                        <span class="header__cart-notice">0</span>
+                        <p class="header__cart-text">Giỏ hàng</p>
+                    </div>
+                    <nav class="header__nav">
+                        <div class="nav__clothes--men">
+                            <a href="" class="description__nav">Cửa hàng quần áo nam</a>
+                        </div>
+                        <div class="nav__clothes--girl">
+                            <a href="" class="description__nav">Cửa hàng quần áo nữ</a>
+                        </div>
+                        <div class="nav__couple-clothes">
+                            <a href="" class="description__nav">Đồ đôi</a>
+                        </div>
+                    </nav>                   
+                </div>
+                <marquee width="100%" direction="left" height="100px" class="marquee-slogan">Để không ai có thể thay thế, bạn phải luôn luôn khác biệt</marquee>               
+            </div>
+        </header>
+
+        <div class="containt grid wide">
+            <div class="body_slider">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="slider-bar">
+                            <img src="./assets/img/img1.jpg" alt="img1" class="img-slider">
+                            <img src="./assets/img/img2.jpg" alt="img2" class="img-slider">
+                            <img src="./assets/img/img3.jpg" alt="img3" class="img-slider">
+                        </div>
+                        <div class="btn-slider">
+                            <i class="pre__btn ti-angle-left"></i>
+                            <i class="next__btn ti-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-sub">
+                    <img src="./assets/img/img2.jpg" alt="">
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="content__category">
+                    <p class="content__category--description">Mua theo thể loại</p>                       
+                    <div class="category__list row small-gutter">
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a class="category-product" href="">
+                                <div class="category-item" style="background-image: url(./assets/img/aokhoac.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a href="" class="category-product">
+                                <div class="category-item" style="background-image: url(./assets/img/aolen.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a href="" class="category-product">
+                                <div class="category-item" style="background-image: url(./assets/img/aosomi.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a href="" class="category-product">
+                                <div class="category-item" style="background-image: url(./assets/img/aothun.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a href="" class="category-product">
+                                <div class="category-item" style="background-image: url(./assets/img/quanjean.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-12" href="">
+                            <a href="" class="category-product">
+                                <div class="category-item" style="background-image: url(./assets/img/vay.jpg);">
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="top-search">
+                <p class="top-search__description">
+                    Tìm kiếm hàng đầu
+                </p>
+                <div class="top-product">
+                    <div class="top-search__product row small-gutter">
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top1.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top2.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top3.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top4.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top5.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top6.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top7.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top8.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top9.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column l-2 m-4 c-6">
+                            <a href="" class="top-search__container">
+                                <div class="top-search__product-item" style="background-image: url(./assets/img/top10.jpg);" href="">
+                                    <button class="buy-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-slider__product--top">
+                        <i class="pre__btn__product--top ti-angle-left"></i>
+                        <i class="next__btn__product--top ti-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item-container">
+                <p class="product__des">Sản phẩm</p>
+                <div class="product-item-list">
+                    <div class="row small-gutter">
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp1.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Quần short thun nữ Hm1986, Quần Đùi Unisex QT100</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">200000đ</div>
+                                        <div class="item__price">150000đ</div>
+                                    </div>                             
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 20</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>
+                              </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp2.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Quần jean nữ ống loe(không co giãn) trơn lai thường thời trang ulzzang N196 22QJL05AS2805 QJL00018</span>                                  
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">500000đ</div>
+                                        <div class="item__price">250000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 200</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>   
+                             </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp3.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Áo thun Tealab Việt Nam , áo over size coton dày dặn- V7 Official ( V35)</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">250000đ</div>
+                                        <div class="item__price">200000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 1000</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>   
+                            </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp4.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Quần quần âu nữ cạp cao dán tiện lợi, chất Vtex bền đẹp tôn dáng, giữ form QS36</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">400000đ</div>
+                                        <div class="item__price">390000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 500</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>   
+                             </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp5.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Quần short nhung xoăn lai 3315 trẻ trung, năng động thời trang nữ ulzzang Hàn Quốc </span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">500000đ</div>
+                                        <div class="item__price">400000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 5000</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div> 
+                           </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp6.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Áo thun tay lỡ form rộng - phông nam nữ cotton oversize - T shirt Share your talent - 2N Unisex</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">100000đ</div>
+                                        <div class="item__price">990000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 100</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>   
+                             </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp7.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Áo thun nữ ngắn tay form rộng freesize</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">200000đ</div>
+                                        <div class="item__price">100000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 2000</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>   
+                             </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp8.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Áo thun tay ngắn form rộng unisex đi học thời trang ulzzang 325 - 22ATU05A962102</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">600000đ</div>
+                                        <div class="item__price">550000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 5000</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>     
+                           </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp9.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Váy cúp ngực tay bồng phối ren Chillgals V-077BE</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">150000đ</div>
+                                        <div class="item__price">149000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 10</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>         
+                            </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/sp10.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Đầm công sở LOKOSA Váy tay ngắn Sơ Mi dự tiệc chữ A phối nút chất liệu mềm mịn cao cấp VD085</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">200000đ</div>
+                                        <div class="item__price">199000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 2000</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/top4.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Chân váy Lưng Cao Hàn Quốc Ngắn Chữ A Cao Cấp Ulzzang Ôm Body Đẹp Công Sở</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">350000đ</div>
+                                        <div class="item__price">300000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 400</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column product-home l-2 m-3 c-4">
+                            <a href="" class="product-home-item">
+                                <div class="item-container">
+                                    <div class="product-item-image" style="background-image: url(./assets/img/top8.jpg);" href=""></div>
+                                    <i class="ti-heart heart-icon-item"></i>
+                                    <span class="item__des">Áo khoác nữ form rộng chống nắng có mũ, áo gió nhung tăm hai lớp rút gấu thời trang unisex</span>
+                                    <div class="product__item--prices">
+                                        <div class="item__price--sale">400000đ</div>
+                                        <div class="item__price">200000đ</div>
+                                    </div>
+                                    <div class="product-home-item--active">
+                                        <div class="icon-star">
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                            <i class="icon-star__gold--color ti-star"></i>
+                                        </div>
+                                        <span class="product-home-item--sold">Đã bán 900</span>
+                                    </div>
+                                    <button class="buy-btn buy-btn__product-item">Thêm vào giỏ hàng</button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">                       
+                    <div class="column l-3 m-3 c-12">
+                        <div class="footer__heading">Chăm sóc khách hàng</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Các câu hỏi thường gặp</a>
+                            </li>   
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Gửi yêu cầu hỗ trợ</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn đặt hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách đổi trả</a>
+                             </li>                       
+                        </ul>
+                    </div>
+                    <div class="column l-3 m-3 c-12">
+                        <div class="footer__heading">Chính sách</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách bảo mật</a>
+                            </li>   
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính sách vận chuyển</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản sử dụng</a>
+                            </li>                     
+                        </ul>
+                    </div>
+                    <div class="column l-3 m-3 c-12">
+                        <div class="footer__heading">Sản phẩm</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Nam</a>
+                            </li>   
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Nữ</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Sale</a>
+                            </li>                      
+                        </ul>
+                    </div>
+                    <div class="column l-3 m-3 c-12">
+                        <div class="footer__heading">Theo dõi</div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Facebook</a>
+                                <i class="ti-facebook footer-face__icon"></i>
+                            </li>   
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Instagram</a>
+                                <i class="ti-instagram footer-instagram__icon"></i>
+                            </li>                     
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="footer__text">© 2022 - Bản quyền thuộc về Quế Quế</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal__register">
+        <div class="modal__container">
+            <div class="modal__heading">
+                <span class="modal-text">Đăng ký tài khoản</span>
+                <i class="ti-close modal__close--register"></i>
+            </div>
+            <lable class="modal-description">Số điện thoại</lable>
+            <input type="tel" class="modal__phone modalal__general" name="SĐT" placeholder="Nhập số điện thoại">
+            <lable class="modal-description">Email</lable>
+            <input type="email" class="modalal__email modalal__general" name="Email" placeholder="Nhập email">
+            <lable class="modal-description">Mật khẩu</lable>
+            <input type="password" class="modalal__pass modalal__general" name="Email" placeholder="Nhập mật khẩu từ 6-32 ký tự">
+            <button class="modal__register--btn">Đăng ký</button>
+        </div>
+    </div>
+    <div class="modal__login">
+        <div class="modal__container">
+            <div class="modal__heading">
+                <span class="modal-text">Đăng nhập với</span>
+                <i class="ti-close modal__close--login"></i>
+            </div>
+            <div class="modal__login--icon">
+                <a class="google__icon--modal" href="#">
+                    <i class="ti-google"></i>
+                    <p class="google__icon--text">Google</p>
+                </a>
+                <a class="facebook__icon--modal" href="#">
+                    <i class="ti-facebook"></i>
+                    <p class="facebook__icon--text">Facebook</p>
+                </a>
+            </div>
+            <lable class="modal__login--or">Hoặc đăng nhập với</lable>
+            <lable class="modal-description">Số điện thoại</lable>
+            <input type="tel" class="modal__phone modalal__general" name="SĐT" placeholder="Nhập số điện thoại">
+            <span class="error__message"></span>
+            <lable class="modal-description">Email</lable>
+            <input type="email" class="modalal__email modalal__general" name="Email" placeholder="Nhập email">
+            <lable class="modal-description">Mật khẩu</lable>
+            <input type="password" class="modalal__pass modalal__general" name="Email" placeholder="Nhập mật khẩu">
+            <button class="modal__login--btn">Đăng nhập</button>
+            <div class="modal__save--pass">
+                <div class="pass__save">
+                    <input type="checkbox" class="radio__pass" name="Radio">
+                    <a href="#" class="pass__save--text">Nhớ mật khẩu</a>
+                </div>
+                <a class="pass__forget" href="#">
+                    Quên mật khẩu
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="modal__menu--mobile">
+        <div class="modal__menu--container">
+            <div class="modal__mobile--accout">
+                <i class="modal__mobile--accout-icon ti-user"></i>
+                <a href="#" class="modal__mobile-account--link">
+                    Tài khoản
+                </a>
+            </div>
+            <a class="modal__mobile--login modal__mobile--link" href="#">
+                Đăng nhập
+            </a>                          
+            <a class="modal__mobile--register modal__mobile--link" href="#">
+                Đăng ký
+            </a>              
+        </div>
+    </div>
+    <script src="./assets/js/js.js"></script>
+</body>
+</html>
